@@ -43,7 +43,6 @@ public class ClaseBase {
 		super();
 
 	}
-
 /////////////////////////INSTANCIA LLAMADO DE DRIVER EN RUTA OUTUT//////////////////////////
 	public void setRutaOutut(String rutaOutut,AppiumDriver<MobileElement> driver2) {
 		this.rutaOutut = rutaOutut;
