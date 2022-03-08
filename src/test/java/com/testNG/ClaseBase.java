@@ -35,7 +35,6 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class ClaseBase {
 	
-	
 	protected AppiumDriver<MobileElement> driver;
 	String rutaOutut;
 	
@@ -45,7 +44,6 @@ public class ClaseBase {
 
 	}
 
-	
 /////////////////////////INSTANCIA LLAMADO DE DRIVER EN RUTA OUTUT//////////////////////////
 	public void setRutaOutut(String rutaOutut,AppiumDriver<MobileElement> driver2) {
 		this.rutaOutut = rutaOutut;

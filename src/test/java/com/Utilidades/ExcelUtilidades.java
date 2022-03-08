@@ -16,7 +16,6 @@ public class ExcelUtilidades {
 	public static Object[][] getTableArray(String FilePath, String SheetName) throws Exception {
 		String[][] tabArray = null;
 		try {
-
 			FileInputStream ExcelFile = new FileInputStream(FilePath);
 			// Access the required test data sheet
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
