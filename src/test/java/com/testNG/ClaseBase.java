@@ -41,7 +41,6 @@ public class ClaseBase {
 	public ClaseBase(WebDriver driver) 
 	{
 		super();
-
 	}
 /////////////////////////INSTANCIA LLAMADO DE DRIVER EN RUTA OUTUT//////////////////////////
 	public void setRutaOutut(String rutaOutut,AppiumDriver<MobileElement> driver2) {
@@ -50,10 +49,7 @@ public class ClaseBase {
 	}
 
 	
-		
 	
-
-
 
 //METODO DE NAVEGADOR
 	@SuppressWarnings("rawtypes")

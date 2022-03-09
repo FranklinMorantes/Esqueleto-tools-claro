@@ -58,7 +58,6 @@ public class RunEditarDireccion
 		tarjeta = new PagObjectTarjeta(driver);
 
 		sesion = new PagObjectCerrarSesion(driver);
-
 		generarReportepdf.setRutaImagen(rutaImagenReporte);
 
 		claseBase.setRutaOutut(rutaOutut, driver);
